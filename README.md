@@ -1,7 +1,6 @@
-docker build . -t java-env
+- build ```docker build . -t java-env```
 
-
-Add to .bashrc
+- add to ~/.bashrc
 
 ```bash
 function sumadebug() {
@@ -23,3 +22,7 @@ function junit-tester() {
         $1 /bin/bash;
 }
 ```
+
+- run ```source ~/.bashrc```
+
+- run ```junit-tester java-env```
